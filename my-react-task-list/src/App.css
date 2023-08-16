@@ -1,0 +1,30 @@
+.contenedorPrincipal{
+  width: 100%;
+  height: calc(100vh - 100px);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px;
+  background-color: rgb(83, 112, 151);
+  padding: 10px;
+  border-radius: 60px;
+}
+
+.btn {
+  background-color: rgb(70, 163, 65);
+  color: #fff;
+  cursor: pointer;
+  padding: 0 20px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  transition: all 0.5;
+  margin-right: 10px;
+}
+
+
+
+
+
+
