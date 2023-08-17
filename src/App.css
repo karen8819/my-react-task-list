@@ -1,0 +1,21 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+
+}
+.App{
+  background-color: rgb(181, 61, 61);
+  color:beige;
+  padding: 3px;
+  border-radius: 30px;
+}
+
+.contenedor{
+  background-color: rgb(199, 121, 121);
+}
+
+.contenedorTareas button, span{
+  color: blue;
+}
