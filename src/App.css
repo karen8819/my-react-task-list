@@ -6,16 +6,20 @@
 
 }
 .App{
-  background-color: rgb(181, 61, 61);
+  background-color: rgb(25, 25, 27);
   color:beige;
   padding: 3px;
   border-radius: 30px;
 }
 
+.App h1{
+  text-decoration: underline;
+}
+
 .contenedor{
-  background-color: rgb(199, 121, 121);
+  background-color: rgb(160, 151, 151);
 }
 
 .contenedorTareas button, span{
-  color: blue;
+  color: rgb(35, 35, 228);
 }

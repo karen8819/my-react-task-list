@@ -4,7 +4,6 @@ import TodoItem from './TodoItem';
 function TodoList() {
   const [todos, setTodos] = useState([]);
   const [inputText, setInputText] = useState('');
-  const [tasks, setTasks] =useState('');
 
   useEffect(()=>{
     const storedTodos=JSON.parse(localStorage.getItem('todos')) || [];
