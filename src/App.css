@@ -1,21 +1,69 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+
+body {
+  background-color: #868b6e; 
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.App {
   text-align: center;
-
-}
-.App{
-  background-color: rgb(181, 61, 61);
-  color:beige;
-  padding: 3px;
-  border-radius: 30px;
-}
-
-.contenedor{
-  background-color: rgb(199, 121, 121);
+  background-color: #333; 
+  padding: 20px;
+  border-radius: 10px;
+  color: #fff;
+  width: 600px;
+  margin-top: 10px;
 }
 
-.contenedorTareas button, span{
-  color: blue;
+h1 {
+  color: #319db5;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #823671; 
+  border-radius: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+li .completada {
+  text-decoration: line-through;
+  color: #777;
+}
+
+button {
+  background-color: #478a2c; 
+  color: #8b2f2f;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #38d32a; 
+}
+
+ul:first-child {
+  margin-bottom: 20px;
+}
+
+ul:last-child {
+  background-color: #444; 
+  padding: 10px;
+  border-radius: 5px;
 }
